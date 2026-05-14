@@ -2,7 +2,7 @@
 
 Advanced Offline Password Manager built using Kotlin and Android Studio.
 
-🌐 Live Website:  
+🌐 Live Website:
 https://amazing-fox-26bf79.netlify.app/
 
 ---
@@ -13,13 +13,16 @@ Secure Password Vault is a futuristic Android application designed for securely 
 
 The application provides:
 
-- AES encrypted password storage
-- Biometric authentication
-- Recovery key system
-- Backup & restore support
-- Clipboard auto-clear security
-- Modern dark cyber-style UI
-- Offline privacy protection
+* Blowfish encrypted password storage
+* SHA-256 master password protection
+* Biometric authentication
+* Recovery key system
+* Backup & restore support
+* Clipboard auto-clear security
+* Password strength checker
+* Strong password generator
+* Modern dark cyber-style UI
+* Offline privacy protection
 
 All data remains stored locally on the device without cloud dependency.
 
@@ -29,39 +32,44 @@ All data remains stored locally on the device without cloud dependency.
 
 ## 🔒 Security Features
 
-- AES Encryption
-- SHA-256 Protection
-- Offline Local Storage
-- Recovery Key System
-- Screenshot Protection
-- Clipboard Auto Clear
+* Blowfish Encryption
+* SHA-256 Protection
+* Offline Local Storage
+* Recovery Key System
+* Screenshot Protection
+* Clipboard Auto Clear
+* Secure Vault Locking
 
 ---
 
 ## 📲 Authentication
 
-- Master Password Login
-- Biometric Fingerprint Unlock
-- Forgot Password Recovery
-- Secure Session Handling
+* Master Password Login
+* Biometric Fingerprint Unlock
+* Forgot Password Recovery
+* Secure Session Handling
 
 ---
 
 ## 🛠 Vault Features
 
-- Add Passwords
-- Edit Passwords
-- Delete Passwords
-- Copy Passwords
-- Search Passwords
+* Add Passwords
+* Edit Passwords
+* Delete Passwords
+* Copy Passwords
+* Search Passwords
+* Password Visibility Toggle
 
 ---
 
-## 💾 Backup Features
+## ⚡ Advanced Features
 
-- Export Encrypted Backup
-- Restore Backup System
-- Secure Local Backup Handling
+* Password Strength Checker
+* Strong Password Generator
+* Automatic App Lock
+* Encrypted CSV Backup Export
+* Backup Restore System
+* Cyberpunk Dark UI
 
 ---
 
@@ -87,13 +95,31 @@ All data remains stored locally on the device without cloud dependency.
 
 # ⚙ Technologies Used
 
-- Kotlin
-- Android Studio
-- Room Database
-- XML UI Design
-- Android Biometric API
-- SharedPreferences
-- SHA-256 Encryption
+* Kotlin
+* Android Studio
+* Room Database
+* XML UI Design
+* Android Biometric API
+* SharedPreferences
+* Blowfish Encryption
+* SHA-256 Hashing
+* RecyclerView
+
+---
+
+# 🔐 Cryptography Concepts Used
+
+This project implements concepts from:
+
+* Classical Cryptography
+* Symmetric Key Cryptosystems
+* Hash Algorithms
+* Authentication Mechanisms
+
+### Algorithms Used
+
+* Blowfish Encryption Algorithm
+* SHA-256 Hashing
 
 ---
 
@@ -116,14 +142,32 @@ https://amazing-fox-26bf79.netlify.app/
 
 ---
 
+# 💾 Backup System
+
+The application supports encrypted local backup export.
+
+Exported backups are stored as encrypted CSV files containing:
+
+* Website
+* Username
+* Encrypted Password
+
+Backup Location:
+
+```txt
+Downloads/SecureVaultBackup
+```
+
+---
+
 # 🧠 Future Improvements
 
-- Cloud Sync
-- AI Password Strength Analysis
-- Password Generator
-- Multi-device Sync
-- Theme Customization
-- Breach Detection API
+* Cloud Sync
+* AI Password Strength Analysis
+* Multi-device Sync
+* Theme Customization
+* Breach Detection API
+* Auto Password Rotation
 
 ---
 
